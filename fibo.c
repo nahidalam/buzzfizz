@@ -1,8 +1,4 @@
-/* This program finds the Fibonacci Series of an integer number using c programming       language. 
-   Written by Nahid Alam
-	
-*/
-
+/* This program finds the Fibonacci Series of an integer number using c programming language written by Nahid Alam */
 
 #include <stdio.h>
 #include <math.h> 
@@ -42,8 +38,7 @@ int main()
       if(next == 0 || next == 1)  printf("%d\n",next);	
       else if((next % 3 == 0) || (next % 5 == 0) || isprime(next))	
       {
-	     /*F(n) can be divisible by 3 or 5 and be prime at the same time.
-	     For example 3 is divisible by 3 and a prime number. In that case, it 
+	     /*F(n) can be divisible by 3 or 5 and be prime at the same time. For example 3 is divisible by 3 and a prime number. In that case, it 
 	     will print "Buzz BuzzFizz"
 	     */
       	if (next % 3 == 0) printf("Buzz ");
